@@ -1,0 +1,9 @@
+div.ext-css{
+    border-radius: 6px; 
+    height: 100%; 
+    padding-inline: 15px; 
+    margin: 10px;
+    color: rgb(9, 79, 148); 
+    background-color: rgb(186, 234, 226); 
+    padding-top: 1px; padding-bottom: 1px;
+}

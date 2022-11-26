@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://twemoji.maxcdn.com/2/svg/1f3a8.svg"
+    type="image/x-icon">
+    <title>Webpage using 3 type of CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<style>
+    h1{
+        font-family:'poppins',sans-serif ;
+        font-weight: 700;
+    }
+    p{
+        font-family:'poppins',sans-serif ;
+        font-weight: 500;
+    }
+</style>
+</head>
+<body>
+    <div style="border-radius: 6px; height: 100%; padding-inline: 15px; margin: 10px;
+    color: rgb(9, 79, 148); padding-top: 1px; padding-bottom: 1px;">
+    <h1>Examples of Inline, Embedded and External CSS</h1></div>
+    <div style="border-radius: 6px; height: 100%; padding-inline: 15px; margin: 10px;
+    color: rgb(9, 79, 148); background-color: rgb(186, 234, 226); padding-top: 1px; padding-bottom: 1px;">
+        <h1>INLINE CSS</h1>
+        <p text-align="left">The style attribute works in the same way as any other HTML attribute. 
+            We use style, followed by the equality sign (=), and then a quote where 
+            all of the style values will be stored using the 
+            standard CSS property-value pairs - "property: value;"</p>
+    </div>
+    <div style="border-radius: 6px; height: 100%; padding-inline: 15px; margin: 10px;
+    color: rgb(9, 79, 148); background-color: rgb(186, 234, 226); padding-top: 1px; padding-bottom: 1px;">
+        <h1>EMBEDDED CSS</h1>
+        <p text-align="left">The CSS syntax for embedded style sheets is exactly the same as other CSS code, 
+            apart from the fact that it is now wrapped within the &lt;style> &lt;/style> tags. The &lt;style> tag takes the 
+            "type" attribute that defines the type of style sheet being used (ie. text/CSS). </p>
+    </div>
+    <div class="ext-css">
+        <h1>EXTERNAL CSS</h1>
+        <p text-align="left">An external style sheet is a separate CSS file that can be accessed by creating a link within 
+            the head section of the webpage. Multiple webpages can use the same link to access the stylesheet.
+           <br><br>"&lt;link rel="stylesheet" href="style.css">"</p>
+    </div>
+
+
+</body>
+</html>
